@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osrs-price"
+version = "0.1.0"
+description = "Query Old School RuneScape Grand Exchange prices from the OSRS Wiki API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Luke"}]
+dependencies = []
+
+[project.scripts]
+osrs-price = "osrs_price.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

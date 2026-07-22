@@ -1,0 +1,7 @@
+outputs/
+.venv/
+.DS_Store
+work/
+
+src/osrs_price/__pycache__/
+tests/__pycache__/
